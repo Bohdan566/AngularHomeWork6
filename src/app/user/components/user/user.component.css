@@ -1,0 +1,17 @@
+.user {
+  color: dodgerblue;
+  font-size: 20px;
+}
+
+.user-input {
+  color: darkviolet;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid gold;
+  background-color: white;
+  padding: 10px;
+  color: orange;
+}

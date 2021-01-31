@@ -1,0 +1,16 @@
+<div *ngIf="user">
+  <div [classList]="'full-user'">
+    <span [classList]="'full-user-input'">User-Id: </span>{{user.id}}
+    <span [classList]="'full-user-input'">Name: </span>{{user.name}}<br>
+    <span [classList]="'full-user-input'">User-Name: </span>{{user.username}}<br>
+    <span [classList]="'full-user-input'">Email: </span>{{user.email}}<br>
+    <span [classList]="'full-user-address'">Address: </span>
+    <span [classList]="'full-user-input'">City: </span>{{user.address.city}}
+    <span [classList]="'full-user-input'">Street: </span>{{user.address.street}}
+    <span [classList]="'full-user-input'">Suite: </span>{{user.address.suite}}<br>
+    <span [classList]="'full-user-input'">Zip_Code: </span>{{user.address.zipcode}}<br>
+    <span [classList]="'full-user-address'">Geo_Location: </span>
+    <span [classList]="'full-user-input'">Latitude: </span>{{user.address.geo.lat}}
+    <span [classList]="'full-user-input'">Longitude: </span>{{user.address.geo.lng}}
+  </div>
+</div>
